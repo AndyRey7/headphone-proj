@@ -1,1 +1,6 @@
 @import "reset.css";
+@import "header.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
