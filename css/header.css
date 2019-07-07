@@ -10,24 +10,24 @@
 }
 
 
-#top .logo {
+#top .container-fluid .logo {
     display: inline-block;
     float: left;
     margin-right: 28px;
 }
-#top .logo img {
+#top .container-fluid .logo img {
     height: 50px;
     width: 50px;
 }
 
-#top .menu {
+#top .container-fluid .menu {
     display: inline-block;
     float: left;
     position: relative;
     top: 20px;
 }
 
-#top .menu a {
+#top .container-fluid .menu a {
     color: #694ffa;
     text-decoration: none;
     font-weight: 600;
@@ -35,7 +35,7 @@
     margin: 0 15px;
 }
 
-#top .header-buttons {
+#top .container-fluid .header-buttons {
     display: inline-block;
     float: right;
     padding-right: 20px;
@@ -44,7 +44,7 @@
     font-weight: 600;
 }
 
-#top .header-buttons .blue-btn {
+#top .container-fluid .header-buttons .blue-btn {
     background: #694ffa;
     padding:  15px 20px;
     border-radius: 25px;
@@ -55,14 +55,14 @@
     top: 25px;
     -webkit-box-shadow: 6px 18px 18px -10px rgba(0,0,0,0.28);
     -moz-box-shadow: 6px 18px 18px -10px rgba(0,0,0,0.28);
-    box-shadow: 6px 18px 18px -10px rgba(0,0,0,0.28)
+    box-shadow: 6px 18px 18px -10px rgba(0,0,0,0.28);
 }
 
-#top .header-buttons .blue-btn .fas {
+#top .container-fluid .header-buttons .blue-btn .fas {
     margin-left: 10px;
 }
 
-#top .header-buttons .orange-btn {
+#top .container-fluid .header-buttons .orange-btn {
     background: #ffa700;
     padding:  15px 40px;
     border-radius: 25px;
